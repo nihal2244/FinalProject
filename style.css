@@ -1,0 +1,148 @@
+
+body,html{
+    height: 100%;
+    margin: 0;
+    background-color: #dee3e0;
+}
+nav{
+    
+    text-align: center;
+    font-size:30px;
+    margin: 0;
+     
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-top:10px;
+    background-color: black;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+  
+    list-style-type: none;
+    display:inline;
+    padding-right: 30px;
+    padding-left: 30px;
+    
+}
+
+.cover{
+    background-image: url("img/Eiffel-Tower-l.jpg");
+    height: 70%; 
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Kaushan Script', cursive;
+    
+    text-align: center;
+    position: relative;
+    color: white;
+    font-size: 19px;
+    
+}
+.cover-info{
+    background-image: url("https://www.gouvernement.fr/sites/default/files/styles/plein-cadre/public/locale/image/2018/11/1afpparisjoelsaget.jpg?itok=uxDj-roa  ");
+    height: 70%; 
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Kaushan Script', cursive;
+    
+    text-align: center;
+    position: relative;
+    color: white;
+    font-size: 19px;
+    
+}
+
+.cover h1.first{
+    position: absolute;
+    margin: 0;
+    top:130px;
+    left:330px;
+}
+
+.cover h1.second{
+    position: absolute;
+    margin: 0;
+    bottom:50px;
+    left:930px;
+}
+table{
+    margin-top:30px;
+    margin-right:auto;
+    margin-left:auto;
+    
+}
+
+.image-card{
+    width:350px;
+    height:200px;
+}
+
+.card{
+    width:350px;
+    height:400px;
+    margin-right:20px;
+    margin-left: 20px;
+    margin-top:40px;
+    background-color: white;
+}
+.card p{
+
+    margin:0;
+    margin-top:10px;
+    
+
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+    margin:0;
+    margin-top:10px;   
+}
+
+.text-area{
+    width:300px;
+    margin-right:auto;
+    margin-left:auto; 
+    text-align: inherit;
+}
+.input-field{
+    padding: 80px 80px 40px;
+}
+.form-main{
+    margin-right: auto;
+    margin-left:auto;
+    border-color: #ccc;
+    border-width: 1px;
+    width:500px;
+    background-color: white;
+    margin-top:30px;
+    text-align:center;
+}
+input{
+    font-size: 18px;
+    padding-bottom: 12px;
+    margin-bottom: 36px;
+    border-top:0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom:1px solid #ccc;
+    width:100%;
+}
+button{
+    background-color: #0056ff;
+    padding: 12px 24px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    margin: 0 auto;
+}
